@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Thang TA TRUNG</title>
+  </head>
+  <body>
+    <header role="banner">
+      <img src="tim.jpeg" alt="" />
+      <h1>    
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="gold"/>
+        </svg> Thang TA TRUNG</h1>
+      <p>10 rue de la république</p>
+      <p>75000 PARIS</p>
+      <p>Tel: 0600000000</p>
+      <p>Email: xxx&gmail.com</p>
+    </header>
+
+    <main role="main">
+      <h2>Formations</h2>
+      <section>
+        <h3>Master marketing et ventes Bac+5</h3>
+        <p>INSEEC Chambéry - 2006</p>
+      </section>
+      <section>
+        <h3>BTS action commerciale</h3>
+        <p>Chambre de commerce de la drôme - 2003</p>
+      </section>
+      <section>Master marketing et ventes ESC Chambéry</section>
+
+      <h2>Expériences</h2>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <h3>Enseignant de golf</h3>
+            <p>
+              Enseignement du gol en cours collectif et individuel au Golf de
+              Montpellier massane
+            </p>
+            <a href="https://www.horizon-resort.com/fr/golf.html" target="blank">Golf de Montpellier massane</a>
+          </li>
+          <li>
+            <h3>Promoteur des ventes</h3>
+            <p>
+              Développement commercial des marques Japan Tobacco International
+              auprès des revendeurs de tabac à Genève - Suisse
+            </p>
+            <a href="https://www.jti.com/" target="blank">Japan Tobacco International</a>
+          </li>
+          <li>
+            <h3>Téléconseiller</h3>
+            <p>Conseillier client par téléphone chez Orange France</p>
+            <a href="https://www.orange.fr/portail" target="blank">Orange France</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button><a href="./CV-template.pdf">Mon CV au format pdf</a></button>
+    </main>
+
+    <footer role="contentinfo">
+      <h2><svg width="30" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.6 10.8C7.9 13.3 10.1 15.5 12.6 16.8L14.8 14.6C15.1 14.3 15.5 14.2 15.9 14.3C17 14.5 18.1 14.6 19.2 14.6C19.7 14.6 20.1 15 20.1 15.5V19.2C20.1 19.7 19.7 20.1 19.2 20.1C10.8 20.1 4 13.3 4 4.9C4 4.4 4.4 4 4.9 4H8.6C9.1 4 9.5 4.4 9.5 4.9C9.5 6 9.6 7.1 9.8 8.2C9.8 8.6 9.7 9 9.4 9.3L7.2 11.5C7 11.5 6.7 11.2 6.6 10.8Z" 
+            fill="black"/></svg>Me contacter</h2>
+      <form action="./page-traitement.php" method="post">
+        <ul>
+          <li>
+            <label for="Nom">Nom&nbsp;:</label>
+            <input type="text" id="Nom" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </footer>
+  </body>
+</html>
